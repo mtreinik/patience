@@ -1,0 +1,36 @@
+.patience .left,
+.patience .mid,
+.patience .right {
+  height: 7px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.patience .left {
+  width: 0px;
+  background-color: #3273f6;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #4f71b5;
+  border-right: 0px;
+}
+
+.patience .mid {
+  width: 0px;
+  background-color: #3273f6;
+  border: 1px solid blue;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.patience .right {
+  width: 300px;
+  background-color: #efefef;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #b5b5b5;
+  border-left: 0px;
+}

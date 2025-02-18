@@ -1,0 +1,38 @@
+{
+  "name": "patience",
+  "version": "1.0.0",
+  "description": "An alternative progress bar experiment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc --watch & npx live-server ./",
+    "lint": "eslint src",
+    "format": "prettier --write 'src/**/*.ts'",
+    "build": "tsc",
+    "start": "npx tsc && npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtreinik/patience.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtreinik/patience/issues"
+  },
+  "homepage": "https://github.com/mtreinik/patience#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.15.0",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "prettier": "^3.5.1",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
+}
